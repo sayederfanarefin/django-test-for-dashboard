@@ -3,34 +3,94 @@
     <head>
         <meta charset="utf-8">
         <title>Minimal Django File Upload Example</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     </head>
 
     <body>
-        <!-- List of uploaded documents -->
-        {% if documents %}
-            <ul>
-                {% for document in documents %}
-                    <li><a href="{{ document.docfile.url }}">{{ document.docfile.name }}</a></li>
-                {% endfor %}
-            </ul>
-        {% else %}
-            <p>No documents.</p>
-        {% endif %}
 
-        <!-- Upload form. Note enctype attribute! -->
-        <form action="{% url "list" %}" method="post" enctype="multipart/form-data">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Dashboard</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto align-right">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Upload new file</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+ <div class="container">
+
+
+
+
+
+      <div class="row justify-content-center" style="margin-top: 50px">
+
+          <div class="col-3"></div>
+        <div class="col-6">
+
+            <div class="card">
+
+                <form action="{% url "list" %}" method="post" enctype="multipart/form-data">
+
+              <div class="card-header text-white bg-dark">Upload</div>
+              <div class="card-body">
+
+
+              <div class="file-upload-wrapper">
+
+                  <p> Please select or drag and drop a json file containing the geo corordinates</p>
+                  {{ form.docfile }}
+
+                </div>
+
             {% csrf_token %}
             <p>{{ form.non_field_errors }}</p>
 
-            <p>{{ form.docfile.label_tag }} {{ form.docfile.help_text }}</p>
+
 
             <p>
                 {{ form.docfile.errors }}
-                {{ form.docfile }}
+
             </p>
 
-            <p><input type="submit" value="Upload"/></p>
-        </form>
+
+
+
+              </div>
+              <div class="card-footer">
+
+                  <button type="submit" value="Upload" class="btn btn-primary btn-block">Upload</button>
+
+              </div>
+
+
+                </form>
+            </div>
+
+        </div>
+          <div class="col-3"></div>
+      </div>
+ </div>
+
+
+
+
+
+
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script>
+        $('.file_upload').file_upload();
+    </script>
+
     </body>
 
 </html>

@@ -19,7 +19,7 @@ def list(request):
             newdoc.save()
             serviceLatLng = ServiceLatLng(newdoc)
             rawDataVar = serviceLatLng.getRawLocation()
-            snappedDataVar = serviceLatLng.getSnappedLocation()
+            snappedDataVar = None #serviceLatLng.getSnappedLocation()
 
 
         return render(request, 'maps.html', {'rawDataVar': rawDataVar, 'snappedDataVar': snappedDataVar})
