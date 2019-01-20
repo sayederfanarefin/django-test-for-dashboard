@@ -21,6 +21,7 @@ def list(request):
             rawDataVar = serviceLatLng.getRawLocation()
             snappedDataVar = serviceLatLng.getSnappedLocation()
 
+
         return render(request, 'maps.html', {'rawDataVar': rawDataVar, 'snappedDataVar': snappedDataVar})
     else:
         form = DocumentForm() # A empty, unbound form

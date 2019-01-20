@@ -47,7 +47,8 @@ class ServiceLatLng():
                 newSnappedLatLng = LatLng(snappedLocation['location']['latitude'], snappedLocation['location']['longitude'])
                 newSnappedLatLngJson = json.dumps(newSnappedLatLng.__dict__)
                 self.listSnappedLocationsJson.append(newSnappedLatLngJson)
-            print(arrayOfSnappedPoints)
+
+        return self.listSnappedLocationsJson
 
     def splitList(self, alist, wantedParts):
         length = len(alist)
