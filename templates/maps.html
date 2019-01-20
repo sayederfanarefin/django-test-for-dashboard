@@ -22,11 +22,41 @@
 
     <title>Map | Dashboard</title>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 </head>
 <body>
 
-<div id="mapRaw" style="height: 500px; width: 500px"></div>
-<div id="mapSnapped" style="height: 500px; width: 500px"></div>
+
+
+
+ <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <h1 class="mt-2">Raw Data Route</h1>
+          <hr class="mt-0 mb-4">
+            <div id="mapRaw" style="
+            position: absolute;
+            width: 100%;
+            left: 0;
+            height: 400px;"></div>
+        </div>
+
+
+           <div class="col-6">
+             <h1 class="mt-2">Snapped Route</h1>
+            <hr class="mt-0 mb-4">
+           <div id="mapSnapped" style="
+            position: absolute;
+            width: 100%;
+            left: 0;
+            height: 400px;"></div>
+        </div>
+
+      </div>
+    </div>
+
+
 
     <script>
 
@@ -108,6 +138,9 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOeAzlHTG2XxZNm4nrnj8NS1J8XLA0nOQ&callback=initMap">
     </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

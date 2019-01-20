@@ -2,10 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9928e017-0b1b-4917-857f-c88230b2e728" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dash/Services.py" beforeDir="false" afterPath="$PROJECT_DIR$/dash/Services.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dash/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dash/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/maps.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/maps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_0l8xNpz.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_2pPfgdM.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_2qSWuJQ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_3h7JnUt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_46hrUQ4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_54FkFSI.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_8bkXifC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_9UPa4Y0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_AK7LvUm.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_BGxSfoz.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_BWK5bOw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_C8d8vpL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_D6uow5R.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_DQv9QHP.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_E9MRzZe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_GQhJDZv.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_H4grqnW.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_HEUCN6s.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_HfjGrs7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_HpZ2pOe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_Idp7KGN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_IjeNnIn.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_J2XjAj8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_JytOd1N.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_KdUDLm6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_LAOuG4J.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_LCmi7WO.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_MeIqFsq.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_MoulhyS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_N1hADTz.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_N2Ln8LS.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_NICB5j3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_OImQdYx.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_OPsWfuX.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_P1msiNy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_PVcKBER.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_QJsdCEp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_U2c3uPx.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_U6y3E9i.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_WCYcINC.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_cF0j3EW.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_cnebdSa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_cxEk6ct.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_dNXpykE.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_fDh5SCK.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_fV6gGK5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_fpfcDxP.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_ftfqlOE.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_fzY4OZz.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_g7zX6vb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_gtSdb0J.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_hfXF3Vy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_hoOMlV5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_iywsyOi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_lNm4ms8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_lmB7XOe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_m4K6YJB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_pBKDaFX.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_rBqGsG2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_reHYWyZ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_s9qLS6G.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_sM83dxB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_sce8x6t.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_t8E7UA6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_u6eZPdm.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_wWMJDr8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_wj7Vx2w.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_xTGLyIQ.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_y4xHfU0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_yD88ehL.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/test_yK07Uwc.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dash/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="106" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="106" />
+            <state relative-caret-position="357">
+              <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -45,11 +117,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/maps.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="101" column="43" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
+            <state relative-caret-position="441">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,6 +153,7 @@
     <findStrings>
       <find>console</find>
       <find>Limit</find>
+      <find>mapSnapped</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -225,7 +298,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34813000" />
+    <option name="totallyTimeSpent" value="35750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1234" height="1040" extended-state="6" />
@@ -236,7 +309,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43991178" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49744463" visible="true" weight="0.3076075" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -244,9 +317,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296582" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3296582" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.89352643" weight="0.3296582" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3296582" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5025554" side_tool="true" weight="0.32194045" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -343,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dash/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="106" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="106" />
+        <state relative-caret-position="357">
+          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -353,11 +426,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/maps.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="101" column="43" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
+        <state relative-caret-position="441">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

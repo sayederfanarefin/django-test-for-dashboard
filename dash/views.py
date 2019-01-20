@@ -18,15 +18,12 @@ def list(request):
             newdoc = Document(docfile = request.FILES['docfile'])
             newdoc.save()
             serviceLatLng = ServiceLatLng(newdoc)
+            rawDataVar = serviceLatLng.getRawLocation()
+            snappedDataVar = serviceLatLng.getSnappedLocation()
 
-
-        return render(request, 'maps.html', {'rawDataVar': serviceLatLng.getRawLocation(), 'snappedDataVar': serviceLatLng.getSnappedLocation()})
+        return render(request, 'maps.html', {'rawDataVar': rawDataVar, 'snappedDataVar': snappedDataVar})
     else:
         form = DocumentForm() # A empty, unbound form
-
-    # Load documents for the list page
-    documents = Document.objects.all()
-
 
     # Render list page with the documents and the form
     return render(request, 'list.html', { 'form': form})
