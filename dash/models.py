@@ -19,3 +19,8 @@ class LatLng():
         self.lat = lat
         self.lng = lng
 
+    def getLat(self):
+        return self.lat
+
+    def getLng(self):
+        return self.lng
