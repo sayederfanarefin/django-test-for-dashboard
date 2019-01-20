@@ -5,7 +5,8 @@ from django.urls import reverse
 
 from dash.models import Document
 from dash.forms import DocumentForm
-from dash.models import latLng
+
+from dash.Services import ServiceLatLng
 import json
 # Create your views here.
 
@@ -16,16 +17,9 @@ def list(request):
         if form.is_valid():
             newdoc = Document(docfile = request.FILES['docfile'])
             newdoc.save()
-            listRawLocations = []
-            with open(newdoc.filename()) as f:
-                for x in json.load(f):
-                    newLatLng = latLng (x['latitude'], x['longitude'])
-                    newLatLngJson = json.dumps(newLatLng.__dict__)
-                    listRawLocations.append(newLatLngJson)
+            serviceLatLng = ServiceLatLng(newdoc)
 
-            # Redirect to the document list after POST
-            #listRawLocationsJson = json.dumps(listRawLocations)
-        return render(request, 'maps.html', {'rawDataVar': listRawLocations})
+        return render(request, 'maps.html', {'rawDataVar': serviceLatLng.getRawLocation()})
     else:
         form = DocumentForm() # A empty, unbound form
 

@@ -11,7 +11,7 @@ class Document(models.Model):
         return 'uploads/'+os.path.basename(self.docfile.name)
 
 
-class latLng():
+class LatLng():
     lat = None
     lng = None
 
