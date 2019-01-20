@@ -3,10 +3,11 @@ from dash.models import Document
 from dash.models import LatLng
 import json
 import requests
+import math
 
 class ServiceLatLng():
     Limit = 100
-    ApiKey = "AIzaSyDRCwA5q9usmoR6Ts1xBLjhFnhdkhfPK3o"
+    ApiKey = "AIzaSyCOeAzlHTG2XxZNm4nrnj8NS1J8XLA0nOQ"
 
     listRawLocationsJson = []
     listRawLocations = []
@@ -25,8 +26,8 @@ class ServiceLatLng():
 
     def getSnappedLocation(self):
 
+        returnSplitList = self.splitList(self.listRawLocations, self.getSplitCount())
 
-        returnSplitList = self.splitList(self.listRawLocations, 6)
 
         for splittedList in returnSplitList:
             urlBase = 'https://roads.googleapis.com/v1/snapToRoads?path=';
@@ -47,4 +48,5 @@ class ServiceLatLng():
         return [alist[i * length // wantedParts: (i + 1) * length // wantedParts]
                 for i in range(wantedParts)]
 
-
+    def getSplitCount(self):
+        return math.ceil(len(self.listRawLocations)/self.Limit)
