@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+
+    <title>Map | Dashboard</title>
+
+</head>
+<body>
+
+<div id="map"></div>
+    <script>
+
+      // This example creates a 2-pixel-wide red polyline showing the path of
+      // the first trans-Pacific flight between Oakland, CA, and Brisbane,
+      // Australia which was made by Charles Kingsford Smith.
+
+      function initMap() {
+
+        var rawData = "{{rawDataVar}}";
+        rawDataNew2 = rawData.replace(/&quot;/g, '\"');
+        rawData = rawDataNew2.replace(/&#39;/g, '');
+        var flightPlanCoordinates = [ ];
+        jsonList = JSON.parse(rawData);
+        jsonList.forEach(myFunction);
+        function myFunction(value) {
+            var a = new google.maps.LatLng(value.lat, value.lng);
+            flightPlanCoordinates.push(a);
+        }
+
+        //var centerLocation = new google.maps.LatLng(flightPlanCoordinates[0].lat, flightPlanCoordinates[0].lng);
+
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: flightPlanCoordinates[0],
+          mapTypeId: 'terrain'
+        });
+
+
+        var flightPath = new google.maps.Polyline({
+          path: flightPlanCoordinates,
+          geodesic: true,
+          strokeColor: '#0000FF',
+          strokeOpacity: 1.0,
+          strokeWeight: 2
+        });
+
+        //console.log(flightPlanCoordinates)
+        flightPath.setMap(map);
+
+
+
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRCwA5q9usmoR6Ts1xBLjhFnhdkhfPK3o&callback=initMap">
+    </script>
+
+</body>
+</html>
