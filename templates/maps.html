@@ -25,7 +25,9 @@
 </head>
 <body>
 
-<div id="map"></div>
+<div id="mapRaw" style="height: 500px; width: 500px"></div>
+<div id="mapSnapped" style="height: 500px; width: 500px"></div>
+
     <script>
 
       // This example creates a 2-pixel-wide red polyline showing the path of
@@ -35,6 +37,8 @@
       function initMap() {
 
         var rawData = "{{rawDataVar}}";
+        var snappedData = "{{snappedDataVar}}";
+
         rawDataNew2 = rawData.replace(/&quot;/g, '\"');
         rawData = rawDataNew2.replace(/&#39;/g, '');
         var flightPlanCoordinates = [ ];
@@ -48,7 +52,7 @@
         //var centerLocation = new google.maps.LatLng(flightPlanCoordinates[0].lat, flightPlanCoordinates[0].lng);
 
 
-        var map = new google.maps.Map(document.getElementById('map'), {
+        var map = new google.maps.Map(document.getElementById('mapRaw'), {
           zoom: 14,
           center: flightPlanCoordinates[0],
           mapTypeId: 'terrain'
@@ -66,6 +70,37 @@
         //console.log(flightPlanCoordinates)
         flightPath.setMap(map);
 
+
+
+
+
+        snappedDataNew2 = snappedData.replace(/&quot;/g, '\"');
+        snappedData = snappedDataNew2.replace(/&#39;/g, '');
+        var snappedFlightPlanCoordinates = [ ];
+        snappedJsonList = JSON.parse(snappedData);
+        snappedJsonList.forEach(mySnappedFunction);
+        function mySnappedFunction(value) {
+            var a = new google.maps.LatLng(value.lat, value.lng);
+            snappedFlightPlanCoordinates.push(a);
+        }
+
+        var snappedMap = new google.maps.Map(document.getElementById('mapSnapped'), {
+          zoom: 14,
+          center: snappedFlightPlanCoordinates[0],
+          mapTypeId: 'terrain'
+        });
+
+
+        var snappedFlightPath = new google.maps.Polyline({
+          path: snappedFlightPlanCoordinates,
+          geodesic: true,
+          strokeColor: '#0000FF',
+          strokeOpacity: 1.0,
+          strokeWeight: 2
+        });
+
+        //console.log(flightPlanCoordinates)
+        snappedFlightPath.setMap(snappedMap);
 
 
       }

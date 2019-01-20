@@ -9,6 +9,7 @@ class ServiceLatLng():
     Limit = 100
     ApiKey = "AIzaSyCOeAzlHTG2XxZNm4nrnj8NS1J8XLA0nOQ"
 
+    listSnappedLocationsJson = []
     listRawLocationsJson = []
     listRawLocations = []
 
@@ -40,8 +41,13 @@ class ServiceLatLng():
                 count = count+1
             urlBase = urlBase + '&interpolate=true&key='+self.ApiKey
             print(urlBase)
-            # r = requests.get(urlBase)
-            # print (r.json())
+            roadsApiRequest = requests.get(urlBase)
+            arrayOfSnappedPoints = roadsApiRequest.json()['snappedPoints']
+            for snappedLocation in arrayOfSnappedPoints:
+                newSnappedLatLng = LatLng(snappedLocation['location']['latitude'], snappedLocation['location']['longitude'])
+                newSnappedLatLngJson = json.dumps(newSnappedLatLng.__dict__)
+                self.listSnappedLocationsJson.append(newSnappedLatLngJson)
+            print(arrayOfSnappedPoints)
 
     def splitList(self, alist, wantedParts):
         length = len(alist)

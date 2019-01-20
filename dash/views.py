@@ -18,9 +18,9 @@ def list(request):
             newdoc = Document(docfile = request.FILES['docfile'])
             newdoc.save()
             serviceLatLng = ServiceLatLng(newdoc)
-            serviceLatLng.getSnappedLocation()
 
-        return render(request, 'maps.html', {'rawDataVar': serviceLatLng.getRawLocation()})
+
+        return render(request, 'maps.html', {'rawDataVar': serviceLatLng.getRawLocation(), 'snappedDataVar': serviceLatLng.getSnappedLocation()})
     else:
         form = DocumentForm() # A empty, unbound form
 
