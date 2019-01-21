@@ -25,7 +25,7 @@ SECRET_KEY = 'v@2)rc9n7()x4e2fnec)volo)pq&9r)n!l3u%@w2-7%e((fx^&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['104.43.222.197']
+ALLOWED_HOSTS = ['104.43.222.197', '127.0.0.1']
 
 
 # Application definition
@@ -123,6 +123,6 @@ STATIC_URL = '/static/'
 #STATIC_ROOT  = 'C:\\Users\\Erfan\\Desktop\\stuff\\python\\py_charm_tet\\static'
 
 STATICFILES_DIRS = [
-    #"C:\\Users\\Erfan\\Desktop\\stuff\\python\\py_charm_tet\\static",
-    "/home/erfan/django-test-for-dashboard/static",
+    "C:\\Users\\Erfan\\Desktop\\stuff\\python\\py_charm_tet\\static",
+    #"/home/erfan/django-test-for-dashboard/static",
 ]
