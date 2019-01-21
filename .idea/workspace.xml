@@ -15,14 +15,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/py_charm_tet/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
+            <state relative-caret-position="-1506">
               <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding>
                 <element signature="e#313#322#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -94,14 +112,14 @@
         <option value="$PROJECT_DIR$/dash/views.py" />
         <option value="$PROJECT_DIR$/static/style.css" />
         <option value="$PROJECT_DIR$/templates/maps.html" />
-        <option value="$PROJECT_DIR$/templates/list.html" />
         <option value="$PROJECT_DIR$/dash/Services.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/py_charm_tet/settings.py" />
+        <option value="$PROJECT_DIR$/templates/list.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1425" />
     <option name="y" value="-8" />
     <option name="width" value="1091" />
@@ -129,6 +147,16 @@
               <item name="py_charm_tet" type="b2602c69:ProjectViewProjectNode" />
               <item name="py_charm_tet" type="462c0819:PsiDirectoryNode" />
               <item name="py_charm_tet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py_charm_tet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py_charm_tet" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="py_charm_tet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="py_charm_tet" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,16 +227,15 @@
       <updated>1547863876373</updated>
       <workItem from="1547863883442" duration="15853000" />
       <workItem from="1548058267250" duration="7309000" />
-      <workItem from="1548083888308" duration="1461000" />
+      <workItem from="1548083888308" duration="2287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53241000" />
+    <option name="totallyTimeSpent" value="54067000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1234" height="1040" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1234" height="1040" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31345826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -283,20 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dash/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -353,11 +366,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py_charm_tet/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
+        <state relative-caret-position="-1506">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
             <element signature="e#313#322#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
