@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/py_charm_tet/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="398">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
               <folding>
                 <element signature="e#313#322#0" expanded="true" />
               </folding>
@@ -199,17 +199,18 @@
       <updated>1547863876373</updated>
       <workItem from="1547863883442" duration="15853000" />
       <workItem from="1548058267250" duration="7309000" />
-      <workItem from="1548083888308" duration="788000" />
+      <workItem from="1548083888308" duration="1461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52568000" />
+    <option name="totallyTimeSpent" value="53241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1234" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31345826" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31345826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -222,7 +223,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3296582" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.89352643" visible="true" weight="0.2800441" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.89352643" visible="true" weight="0.2800441" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5025554" side_tool="true" weight="0.32194045" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -352,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/py_charm_tet/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="398">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
             <element signature="e#313#322#0" expanded="true" />
           </folding>
